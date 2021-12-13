@@ -25,6 +25,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/colors.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -32,6 +33,7 @@ export default {
     '@/plugins/locomotive-scroll.js'
   ],
 
+  
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -46,7 +48,12 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxtjs/style-resources',
+
   ],
+  styleResources: {
+    scss: ['./assets/*.scss']
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {

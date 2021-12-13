@@ -29,9 +29,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  width: 100%;
+  height: 100%;
   
-  background: #19203b !important;
-  color: wheat;
+  
 /* 
   color: #212a4d !important;
   background: wheat; */
