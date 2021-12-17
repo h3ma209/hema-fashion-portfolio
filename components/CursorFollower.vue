@@ -1,6 +1,6 @@
 <template>
   <div class="custom-cursor">
-    <div class="custom-cursor__circle" :style="circleStyle" ref="customCursorCircle"></div>
+    <div class="custom-cursor__circle"  ref="customCursorCircle"></div>
     <!-- <div class="custom-cursor__dot" :style="dotStyle" ref="customCursorDot"></div> -->
   </div>
 </template>
@@ -49,7 +49,7 @@ $ease: cubic-bezier(0.23, 1, 0.32, 1);
   left: 0;
   width: 50px;
   height: 50px;
-  border: 2px solid wheat;
+  border: 2px solid $secondary;
   border-radius: 50%;
   transform: translate(-100%, -100%);
   transition: transform 0.4s $ease;
