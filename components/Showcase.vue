@@ -4,6 +4,7 @@
 
         <img class="img-cover rounded-lg h-4/4 lg:max-w-sm object-contain" data-scroll :src="src" :data-scroll-speed='speed.img' :data-scroll-delay='delay.img'>
 
+
         <div class="caption text-5xl font-bold" data-scroll :data-scroll-speed='speed.caption' :data-scroll-delay='delay.caption'>
             {{caption}}
         </div>
@@ -51,10 +52,15 @@ export default {
         align-self: center;
         justify-self: end;
         right: 3vh;
+        display: none;
     }
     .img-cover {
         align-self: center;
         justify-self: center;
+        transition: box-shadow 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+    }
+    .img-cover:hover{
+        box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
     }
 }
 </style>
