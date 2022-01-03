@@ -19,7 +19,7 @@
         <div class="about" data-scroll-section>
             <div class="flex flex-col sm:flex-row h-full">
                 <div class="grid grid-cols-1  place-items-center left" data-scroll data-scroll-speed='-0.8'>
-                    <img class="object-cover h-3/5 rounded-lg " src="http://www.zalale.com/wp-content/uploads/2021/12/IMG_3619.jpeg" alt="" srcset="">
+                    <img class="object-cover h-3/5 rounded-lg " src="/IMG_2760.JPEG" alt="" srcset="">
                 </div>
                 <div class="grid lg:w-4/5 lg:content-center sm:items-center right p-4">
                     <div class="font-bold text-5xl lg:text-9xl" data-scroll data-scroll-speed='2.5'>
@@ -73,12 +73,12 @@ export default {
     data() {
         return {
             gallery: [
-                { caption: "H E M A", speed: { img: '4', caption: '3', number: '3' }, delay: { img: '', caption: '', number: '' }, src: "http://www.zalale.com/wp-content/uploads/2021/11/IMG_2845-scaled.jpeg" },
-                { caption: "H E M A", speed: { img: '5', caption: '4', number: '4' }, delay: { img: '', caption: '', number: '' }, src: "http://www.zalale.com/wp-content/uploads/2021/11/IMG_2760-scaled.jpeg" },
-                { caption: "H E M A", speed: { img: '6', caption: '5', number: '5' }, delay: { img: '', caption: '', number: '' }, src: "http://www.zalale.com/wp-content/uploads/2021/11/IMG_2821-scaled.jpg" },
-                { caption: "H E M A", speed: { img: '6', caption: '5', number: '5' }, delay: { img: '', caption: '', number: '' }, src: "http://www.zalale.com/wp-content/uploads/2021/11/IMG_3575-scaled.jpeg" },
-                { caption: "H E M A", speed: { img: '6', caption: '5', number: '5' }, delay: { img: '', caption: '', number: '' }, src: "http://www.zalale.com/wp-content/uploads/2021/12/IMG_3829-scaled.jpeg" },
-                { caption: "H E M A", speed: { img: '6', caption: '5', number: '5' }, delay: { img: '', caption: '', number: '' }, src: "http://www.zalale.com/wp-content/uploads/2021/12/IMG_2834-scaled.jpeg" },
+                { caption: "H E M A", speed: { img: '4', caption: '3', number: '3' }, delay: { img: '', caption: '', number: '' }, src: 'IMG_2271.JPEG' },
+                { caption: "H E M A", speed: { img: '5', caption: '4', number: '4' }, delay: { img: '', caption: '', number: '' }, src: 'IMG_2820.JPEG' },
+                { caption: "H E M A", speed: { img: '6', caption: '5', number: '5' }, delay: { img: '', caption: '', number: '' }, src: 'IMG_2845.JPEG' },
+                { caption: "H E M A", speed: { img: '6', caption: '5', number: '5' }, delay: { img: '', caption: '', number: '' }, src: 'IMG_2834.JPEG' },
+                { caption: "H E M A", speed: { img: '6', caption: '5', number: '5' }, delay: { img: '', caption: '', number: '' }, src: 'IMG_2789.JPEG' },
+                { caption: "H E M A", speed: { img: '6', caption: '5', number: '5' }, delay: { img: '', caption: '', number: '' }, src: 'IMG_2712.JPEG' },
             ]
         }
     }
