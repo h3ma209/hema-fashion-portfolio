@@ -36,7 +36,7 @@ export default {
   z-index: 999999999;
   height: 100vh;
   width: 100vw;
-  background: black;
+  background: $primary;
   color: white;
   display: flex;
   justify-content: center;
@@ -44,7 +44,8 @@ export default {
   text-align: center;
 
   .circle {
-    background: olive;
+    background: $secondary;
+    color: $primary;
     height: 20vh;
     width: 10vw;
     text-align: center;
@@ -53,7 +54,6 @@ export default {
     align-items: center;
     text-align: center;
     font-size: 28px;
-    background-color: red;
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: 2;
