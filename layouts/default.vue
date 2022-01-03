@@ -1,5 +1,6 @@
 <template>
   <div>
+    <loader></loader>
     <cursor-follower></cursor-follower>
     <Nuxt />
   </div>
@@ -7,9 +8,12 @@
 
 <script>
 import CursorFollower from '../components/CursorFollower.vue'
+import Loader from "../components/Loader.vue"
 export default {
+  
   components:{
-    CursorFollower
+    CursorFollower,
+    Loader,
   },
   setup() {
     

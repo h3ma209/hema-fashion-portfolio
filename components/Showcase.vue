@@ -2,7 +2,7 @@
     <div class="container ">
         <div class="number text-5xl font-normal" data-scroll :data-scroll-speed='speed.number' :data-scroll-delay='delay.numbar'>{{number}}</div>
 
-        <img class="img-cover rounded-lg h-4/4 lg:max-w-sm object-contain" data-scroll :src="src" :data-scroll-speed='speed.img' :data-scroll-delay='delay.img'>
+        <img class="img-cover rounded-lg h-4/4 lg:max-w-sm object-contain" rel="preload" data-scroll :src="src" :data-scroll-speed='speed.img' :data-scroll-delay='delay.img'>
 
 
         <div class="caption text-5xl font-bold" data-scroll :data-scroll-speed='speed.caption' :data-scroll-delay='delay.caption'>
